@@ -4,11 +4,19 @@
 
 ## Preview
 
- > coming soon
+![preview](public/vue-map-card.gif)
 
 ## Introduction
 
-`Vue Map-Card` is an opinionated map component for Vue.
+`Vue Map-Card` is an opinionated map component for Vue that offers a simple way to display a map on a card. The component is built with [Vue 3](https://v3.vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).
+
+## Features
+
+- [x] Display a map on a card
+- [x] Set map location by address
+- [x] Set map location by coordinates
+- [x] Set zoom level
+- [ ] Display a map on a card with a marker
 
 ## Installation
 
