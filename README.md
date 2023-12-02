@@ -4,7 +4,7 @@
 
 ## Preview
 
-![preview](public/vue-map-card.gif)
+[vue-map-card.webm](https://github.com/this-oliver/vue-map-card/assets/32515201/7a2f6b25-8fe5-4f9d-8f18-45bfe30bc5ce)
 
 ## Introduction
 
