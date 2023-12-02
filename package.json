@@ -1,19 +1,14 @@
 {
   "name": "vue-map-card",
-  "version": "0.1.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build:docs": "vite build --mode docs",
-    "build:lib": "vue-tsc --noEmit && vite build --mode lib",
-    "preview": "vite preview",
-    "bump": "npx fist-bump"
-  },
+  "version": "0.1.1",
+  "homepage": "https://map.oliverrr.net",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/this-oliver/vue-map-card.git"
   },
-  "homepage": "https://github.com/this-oliver/vue-map-card",
+  "license": "MIT",
+  "type": "module",
+  "types": "./lib/index.d.ts",
   "files": [
     "lib",
     "volar.d.ts"
@@ -30,8 +25,13 @@
   "sideEffects": [
     "**/*.css"
   ],
-  "types": "./lib/index.d.ts",
-  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build:docs": "vite build --mode docs",
+    "build:lib": "vue-tsc --noEmit && vite build --mode lib",
+    "preview": "vite preview",
+    "bump": "npx fist-bump"
+  },
   "devDependencies": {
     "@iconify/json": "^2.1.104",
     "@types/node": "^18.7.14",

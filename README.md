@@ -1,4 +1,4 @@
-# Map-Card for Vue
+# map-card for Vue
 
 > An opinionated map component for Vue.
 
@@ -8,7 +8,7 @@
 
 ## Introduction
 
-`Vue Map-Card` is an opinionated map component for Vue that offers a simple way to display a map on a card. The component is built with [Vue 3](https://v3.vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).
+`map-card` is an opinionated map component for Vue that offers a simple way to display a map on a card. The component is built with [Vue 3](https://v3.vuejs.org/) and [TypeScript](https://www.typescriptlang.org/).
 
 ## Features
 
@@ -35,7 +35,7 @@ yarn add vue-map-card
 ```html
 <!-- App.vue -->
 <template>
-  <MapCard 
+  <map-card 
     street="Andra Långgatan 5" 
     post="413 03"
     city="Gothenburg"
@@ -65,7 +65,7 @@ Use `MapCard` component anywhere in the Vue SFC
 ```html
 <!-- App.vue -->
 <template>
-  <MapCard 
+  <map-card 
     street="Andra Långgatan 5" 
     post="413 03"
     city="Gothenburg"
@@ -100,6 +100,8 @@ https://cdn.jsdelivr.net/npm/vue-map-card/+esm
 
 **UMD version**
 
+> Make sure to use the [latest version number](./package.json) in the link below.
+
 ```ts
 https://www.unpkg.com/vue-map-card@0.0.1/lib/vue-map-card.umd.cjs
 ```
@@ -115,7 +117,7 @@ It is possible to set the zoom level of the map by passing the `zoom` prop. The 
 ```html
 <!-- App.vue -->
 <template>
-  <MapCard 
+  <map-card 
     street="Andra Långgatan 5" 
     post="413 03"
     city="Gothenburg"
