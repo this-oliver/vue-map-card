@@ -1,6 +1,5 @@
 <template>
   <div class="flex flex-col gap-3 items-center">
-    <img src="logo-192x192.png" alt="Logo" class="logo" />
     <h1 class="text-5xl font-bold -mt-5 mb-3 text-neon">Vue Map Card</h1>
     <p class="mt-0 mb-3 text-lg">An opinionated map component for Vue.</p>
 
